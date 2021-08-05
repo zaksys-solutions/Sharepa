@@ -1,0 +1,529 @@
+html, body {
+	width: 100%;
+}
+.new-wrap {
+	position: relative;
+	top: 105px;
+	color: #303030;
+}
+.site-navigation {
+	margin: 0 -15px;
+}
+.main-section {
+	background-image: url('../img/main-banner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 525px;
+}
+.mainWrap p {
+	font-size: 23px;
+}
+.new-wrap .breadcrumb {
+	font-size: 16px;
+	color: #7f7f7f;
+}
+.new-wrap .breadcrumb li {
+	font-size: 16px;
+}
+.new-wrap .breadcrumb li+li:before, .new-wrap .breadcrumb a {
+	color: #7f7f7f;
+}
+.new-wrap .breadcrumb li:last-child {
+	color: #2e3d62;
+}
+.mainWrap h1 {
+	font-size: 64px;
+	color: #303030;
+	font-weight: bold;
+}
+.banner_cont {
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 40px 15px 10px 0;
+}
+.banner_cont .row {
+	flex-wrap: nowrap;
+}
+.R-mar {
+	margin: 0 0px;
+	letter-spacing: 0.5px;
+	position: absolute;
+}
+.banner_cont img {
+	margin-left: auto;
+}
+.p-intro {
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 25px 0;
+	line-height: 30px;
+}
+.subhead {
+	font-size: 40px;
+	font-weight: 600;
+	color: #303030;
+	margin: 0;
+	padding: 0 0 30px 0;
+	line-height: 55px;
+}
+.modal-body input[type=text] {
+	width: 100%;
+	padding: 8px 15px;
+	border: none;
+	font-size: 16px;
+	color: #303030;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	resize: vertical;
+	margin-bottom: 5px;
+}
+.modal-body input[type=submit] {
+	background-color: #c61118;
+	color: #fff;
+	width: 100%;
+	padding: 8px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 15px;
+}
+#Thanksmodal h4 {
+	padding: 5%;
+	font-size: 60px;
+	font-weight: 700;
+	color: #c61118;
+	text-align: center;
+}
+.whyInvest {
+	padding: 0 0 35px 0;
+}
+.whyInvest .row {
+	justify-content: space-between;
+	margin: 0;
+}
+.whyInvest h6 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #303030;
+	margin: 0;
+	padding: 20px 0 8px 0;
+}
+.whyInvest .item {
+	padding: 15px;
+	display: flex;
+}
+.whyInvest .a-u-shadow-box {
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 11%);
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-weight: 200;
+	padding: 35px 25px 35px 25px;
+	margin: 0;
+	max-width: none;
+	border-radius: 3px;
+	flex: 1;
+}
+.whyInvest .subhead {
+	padding-bottom: 15px;
+	padding-top: 10px
+}
+.whyInvest .owl-carousel .owl-item img {
+	filter: none !important;
+	width: 100%;
+}
+.whyInvest .a-u-box-head {
+	height: auto;
+}
+.whyInvest .a-u-shadow-box p {
+	font-size: 16px;
+	font-weight:400;
+	color: #2e3d62;
+	margin: 0;
+	line-height: 30px;
+}
+.btn-invest {
+	max-width: 355px;
+	display: block;
+	padding: 15px 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #440197;
+	text-align: center;
+	margin: auto;
+	letter-spacing:0.20px;
+}
+.btn-invest a {
+	display: block;
+}
+.btn-invest:hover, .btn-invest:visited {
+	color: rgba(255,255,255,.9);
+}
+.whyInvest .btn-invest {
+	margin: 25px auto 50px auto;
+}
+.btn-ask {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	display: inline-block;
+	padding: 14px 74px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.callAction {
+	background-color: #c71219;
+	padding: 35px 40px;
+	border-radius: 10px;
+	font-size: 32px;
+	font-weight: 200;
+	color: #fff;
+	position: relative;
+}
+.callAction p {
+	margin: 10px 0;
+}
+.callAction a {
+	min-width: 240px;
+	display: block;
+	background: #fff;
+	box-shadow: 2px 2px 5px #00000052;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #440197;
+	letter-spacing: 0.5px;
+	padding: 15px 15px;
+}
+.SlidePopup {
+	position: absolute;
+	top: 90px;
+	right: 40px;
+	display: none;
+	background: #fff;
+	border-radius: 5px 0 5px 5px;
+}
+.openAccount {
+	background: #f7f9ff;
+	padding: 25px 15px 0 15px;
+	margin: 0 0 45px 0;
+}
+.InvestSlider {
+	padding: 25px 0;
+}
+.openAccount .item, .InvestSlider .item {
+	text-align: center;
+}
+.openAccount .item img, .InvestSlider .item img {
+	filter: none;
+	margin: auto;
+}
+.InvestSlider .owl-carousel .owl-item img {
+	width: auto;
+}
+.openAccount .owl-carousel .owl-item img {
+	width: auto;
+}
+.SAdvantage .mr-auto {
+	margin: 10px 0 50px 0;
+}
+.sharepaAdvantage {
+	font-size: 22px;
+}
+.sharepaAdvantage p {
+	font-size: 22px;
+}
+.sharepaAdvantage ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sharepaAdvantage li {
+	background: url(../img/tickmark.png) no-repeat left 4px;
+	padding: 0 0 0 45px;
+	margin: 0 0 15px 0;
+}
+.mythWrap {
+	margin: 10px 0 50px 0;
+	padding: 20px 15px 0 25px;
+	width: 100%;
+	max-width: none;
+	box-shadow: 0 0 29px 0 rgb(0 0 0 / 11%);
+}
+.mythWrap .banner_cont {
+	padding: 0;
+	margin: 0;
+}
+.mythtext h3 {
+	font-size: 32px;
+	font-weight: 500;
+	color: #303030;
+	padding: 0 0 5px 0;
+}
+.mythtext p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #303030;
+}
+.faqs-acc {
+	max-width: 745px;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+.faqs-acc .card {
+	border: 1px solid #ccc !important;
+	border-radius: 1px;
+	margin: 0 0 20px 0;
+}
+.faqs-acc .card-header {
+	padding: 0;
+	border: none !important;
+}
+.faqs-acc .card-header h2, .faqs-acc .card-header button {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #303030;
+}
+.faqs-acc button {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.faqs-acc button span {
+	width: 90%;
+}
+.faqs-acc button font {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-size: 100% !important;
+}
+.faqs-acc .card-header h2 button > font {
+	background: url(../img/minus.png) no-repeat;
+}
+.faqs-acc .card-header h2 button.collapsed > font {
+	background: url(../img/plus.png) no-repeat;
+}
+.faqs-acc .card-body {
+	padding: 5px 25px 20px 20px;
+}
+.faqs-acc .card-body p {
+	margin: 0;
+}
+.openAccount-Slider {
+	display: none;
+	padding: 5px 20px;
+}
+.mobile-show {
+	display: none;
+}
+#Mymodal p {
+	margin: 0;
+}
+.Trade h3{margin-bottom:20px;}
+.Trade p{font-size:18px; line-height:30px;}
+@media (max-width:767px) {
+.new-wrap {
+	top: 50px;
+}
+.banner_cont {
+	display: block !important;
+	padding: 35px 15px !important
+}
+.banner_cont img {
+	margin-top: 30px;
+}
+.mainWrap h1 {
+	font-size: 34px;
+}
+.mainWrap p {
+	font-size: 18px;
+}
+.wrap {
+	margin: 0 !important;
+}
+.R-mar {
+	text-align: center;
+	position: relative;
+}
+.R-mar p br {
+	display: none;
+}
+.btn-invest {
+	padding: 10px 15px;
+	width: 100%;
+}
+.p-intro {
+	margin: initial!important;
+	padding: 30px 30px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.p-intro br {
+	display: none;
+}
+.subhead {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	padding-bottom: 20px;
+	margin-bottom:20px;
+}
+
+.subhead br {
+	display: none;
+}
+.whyInvest .a-u-shadow-box {
+	width: 100%;
+	padding: 30px 15px;
+}
+.a-u-imgdiv {
+	margin: 0 auto;
+}
+.whyInvest h6 {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 8px 0 5px 0
+}
+.whyInvest .a-u-shadow-box p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.whyInvest .btn-invest {
+	margin: 5px auto 35px auto;
+	width: 90%;
+}
+.whyInvest .subhead {
+	padding-bottom: 10px;
+}
+.InvestSlider {
+	padding: 0;
+}
+.InvestSlider .owl-carousel.owl-drag .owl-item {
+}
+.InvestSlider .item .a-u-shadow-box {
+	width: 90%;
+	margin: 15px auto;
+	padding: 30px 15px;
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 11%);
+}
+.callAction {
+	text-align: center;
+	padding: 20px 30px;
+	font-size: 18px;
+	line-height: 28px;
+	display: block!important;
+}
+.callAction p {
+	margin: 0 0 15px 0;
+}
+.callAction a {
+	min-width: 100%;
+	font-weight: 600;
+}
+.openAccount {
+	margin-bottom: 25px;
+}
+.SAdvantage {
+	padding: 0 10px;
+}
+.SAdvantage .mr-auto {
+	margin: 5px 0 30px 0;
+}
+.SAdvantage img {
+	display: none;
+}
+.sharepaAdvantage li {
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	background-position: left 0;
+	margin-bottom: 10px;
+}
+.faqs-acc .card-header button {
+	padding: 10px;
+}
+.faqs-acc .card-body {
+	padding: 0 10px;
+}
+.faqs-acc .card-body p {
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+.faqs-acc button {
+	align-items: flex-start;
+}
+.faqs-acc button span {
+	width: 85%;
+}
+.faqs-acc button font {
+	width: 20px;
+	height: 20px;
+}
+.faqs-acc .card-header button {
+	font-size: 16px;
+	line-height: 24px;
+}
+.mythWrap {
+	padding: 30px 15px;
+	margin-bottom: 20px;
+}
+.mythWrap .banner_cont {
+	padding: 0 !important;
+	text-align: center;
+	flex-direction: column-reverse;
+	display: flex!important;
+}
+.mythtext h3 {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.mythWrap .banner_cont img {
+	margin: 0 0 20px 0;
+	width: 80%;
+}
+.mythtext {
+	margin: initial!important;
+}
+.mythtext p {
+	display: none;
+}
+.main-section {
+	display: none;
+}
+.mobile_hide {
+	display: none;
+}
+.mobile-show {
+	display: block;
+}
+.openAccount-Slider {
+	display: block;
+}
+.openAccount .item p {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 15px 0 0 0;
+}
+.SlidePopup {
+	top: 140px;
+	left: 0;
+	right: 0;
+	border-radius: 5px;
+}
+#Thanksmodal h4 {
+	font-size: 36px;
+}
+.faqs-acc{
+	padding:0 0 30px 0;
+}
+
+}
